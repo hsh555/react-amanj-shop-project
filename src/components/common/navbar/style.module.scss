@@ -1,0 +1,33 @@
+.navBar {
+    width: 100%;
+    text-align: center;
+    a {
+        display: inline-block;
+        height: 40px;
+        padding: 10px 12px;
+        color: #555;
+        outline: none;
+        &:hover {
+            color: #000;
+            border-bottom: 2px solid crimson;
+        }
+    }
+}
+
+.active {
+    border-bottom: 2px solid crimson;
+}
+
+.loginBtn {
+    width: 70px;
+    float: right;
+    padding: 5px 15px;
+    margin: 5px;
+    color: #555;
+    font-size: bold;
+    border: 1px solid crimson;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+}

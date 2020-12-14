@@ -1,0 +1,38 @@
+.productsList {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: baseline;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    height: 140px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #777;
+    p {
+        color: #444;
+        margin: 7px 0;
+    }
+    button {
+        position: relative;
+        bottom: 0px;
+        padding: 8px 12px;
+        background-color: crimson;
+        color: #fff;
+        font-size: bold;
+        border: 0;
+        outline: none;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #777;
+        cursor: pointer;
+
+        &:active {
+            box-shadow: none;
+        }
+    }
+}
